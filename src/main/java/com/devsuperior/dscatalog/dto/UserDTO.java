@@ -15,7 +15,7 @@ public class UserDTO {
     private String firstName;
     private String lastName;
 
-    @Email(message = "Entre com um email valido")
+    @Email(message = "Entre com um email válido")
     private String email;
 
     Set<RoleDTO> roles = new HashSet<>();
